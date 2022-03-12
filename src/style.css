@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.shadow-one {
+	box-shadow: rgba(17, 17, 26, 0.3) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.drop-shadow-one {
+	--tw-drop-shadow: drop-shadow(0 10px 11px rgb(0 0 0 / .4));
+	filter: var(--tw-blur)
+     var(--tw-brightness) 
+     var(--tw-contrast) 
+     var(--tw-grayscale) 
+     var(--tw-hue-rotate) 
+     var(--tw-invert) 
+     var(--tw-saturate) 
+     var(--tw-sepia) 
+     var(--tw-drop-shadow);
+}
+
+.drop-shadow-two{
+    --tw-drop-shadow: drop-shadow(0 10px 52px rgb(0 0 0 / .4)) 
+    drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+    filter: var(--tw-blur) 
+    var(--tw-brightness) 
+    var(--tw-contrast) 
+    var(--tw-grayscale) 
+    var(--tw-hue-rotate) 
+    var(--tw-invert) 
+    var(--tw-saturate) 
+    var(--tw-sepia) 
+    var(--tw-drop-shadow);
+}
+
+.drop-shadow-three {
+	--tw-drop-shadow: drop-shadow(0 10px 11px rgb(0 0 0 / 9));
+	filter: var(--tw-blur) 
+    var(--tw-brightness) 
+    var(--tw-contrast) 
+    var(--tw-grayscale) 
+    var(--tw-hue-rotate) 
+    var(--tw-invert) 
+    var(--tw-saturate) 
+    var(--tw-sepia)
+     var(--tw-drop-shadow);
+}
+
